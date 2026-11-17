@@ -1,0 +1,43 @@
+{
+  "name": "store-radar-mcp",
+  "version": "1.0.0",
+  "description": "Zero-dependency MCP Server & CLI for App Store competitor pricing intelligence, 1-3 star negative review pain-point clustering, and commercial battlecard generation.",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "bin": {
+    "store-radar-mcp": "./bin/store-radar-mcp.mjs"
+  },
+  "exports": {
+    ".": "./src/radar.mjs",
+    "./license": "./src/license.mjs"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node ./bin/store-radar-mcp.mjs",
+    "test": "node --test tests/store-radar.test.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "app-store",
+    "aso",
+    "competitor-intelligence",
+    "indie-hacker",
+    "claude-code",
+    "cursor"
+  ],
+  "author": "a3152557994-ship-it",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a3152557994-ship-it/store-radar-mcp.git"
+  },
+  "homepage": "https://a3152557994-ship-it.github.io/store-radar-mcp/"
+}

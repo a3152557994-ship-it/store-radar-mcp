@@ -1,0 +1,18 @@
+# Store Radar MCP (store-radar-mcp)
+
+> Zero-dependency MCP Server & CLI for Apple App Store competitor pricing intelligence, 1-3 star negative review pain-point clustering, and Markdown commercial battlecard generation for Cursor, Claude Code, and Antigravity developers.
+
+## Key Capabilities
+- **probe_keyword (Free)**: Queries Apple iTunes Search API and Customer Reviews RSS feed to inspect top 5 incumbents, pricing models, rating counts, and verbatim 1-3 star negative reviews.
+- **compare_matrix (Pro)**: Deduplicates competitors across multiple App Store keywords, scores incumbent vulnerability (0-100), and clusters 1-3 star complaints into 6 developer-actionable wedge categories (Subscription Fatigue, Crashes/Bugs, Sync/Data Loss, Ads/Bloat, Forced Login, Missing Micro-Workflows).
+- **generate_battlecard (Pro)**: Generates an executive Go/No-Go Markdown Commercial Battlecard with Opportunity Score, anti-subscription one-time buyout pricing anchor, MVP feature wedge, and ASO title candidates.
+
+## Technical Details
+- Runtime: Node.js >= 20 (zero external npm dependencies)
+- Transport: Standard Model Context Protocol (MCP) JSON-RPC 2.0 over `stdio` + direct CLI (`probe`, `compare`, `battlecard`, `activate`, `status`)
+- License Model: Free core + $19 / ¥68 one-time lifetime Pro buyout verified offline via Ed25519 (`OPC1.<payload>.<sig>`)
+
+## Links
+- Website & Live Playground: https://a3152557994-ship-it.github.io/store-radar-mcp/
+- GitHub Repository: https://github.com/a3152557994-ship-it/store-radar-mcp
+- Contact & Licensing: a3152557994@gmail.com / 3152557994@qq.com
